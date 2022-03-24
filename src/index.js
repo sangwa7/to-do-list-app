@@ -1,42 +1,24 @@
-import './css/style.css';
-import Icon from './img/more.png';
+import './style.css';
+import addNewTask from './addlist.js';
+import populateList from './populateList.js';
+import trashCompleted from './completed.js';
 
-const ul = document.querySelector('.todo');
+const addNewTaskInput = document.querySelector('#text');
+const addNewTaskBtn = document.querySelector('.add');
+const clearCompletedTask = document.querySelector('.clear');
 
-const tasks = [
-  {
-    description: 'clean house',
-    completed: true,
-    index: 0,
-  },
-  {
-    description: 'Attend morning session',
-    completed: false,
-    index: 1,
-  },
-  {
-    description: 'Submit work',
-    completed: false,
-    index: 2,
-  },
-];
+addNewTaskBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  addNewTask(addNewTaskInput);
+});
 
-function taskList() {
-  tasks.forEach((task) => {
-    const input = document.createElement('input');
-    input.classList.add('check');
-    input.type = 'checkbox';
-    input.name = 'check1';
+clearCompletedTask.addEventListener('click', (e) => {
+  e.preventDefault();
+  trashCompleted();
+  populateList();
+});
 
-    const dots = document.createElement('img');
-    dots.src = Icon;
-
-    const li = document.createElement('li');
-    li.innerText = task.description;
-    li.appendChild(dots);
-    li.appendChild(input);
-    ul.appendChild(li);
-  });
-}
-
-taskList();
+document.addEventListener('DOMContentLoaded', (e) => {
+  e.preventDefault();
+  populateList();
+});
