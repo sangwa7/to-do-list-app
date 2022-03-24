@@ -66,7 +66,7 @@ set up on github pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to leave a comment [issues page]().
+Feel free to leave a comment [issues page] ().
 
 ## Show your support
 
