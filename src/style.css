@@ -136,8 +136,8 @@ ul {
 }
 
 .clear:hover {
-transition: 0.6s ease-in;
-background: rgb(33, 85, 175);
+  transition: 0.6s ease-in;
+  background: rgb(33, 85, 175);
 }
 
 .clear a {
