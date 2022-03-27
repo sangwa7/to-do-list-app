@@ -55,12 +55,11 @@ set up on github pages
 ```
 
 ## Authors
-
 👤 **Sangwa Didier**
 
-- GitHub: [@Sangwa7](https://github.com/Sangwa7)
-- Twitter: [@Sangwa7](https://twitter.com/Sangwa7)
-- LinkedIn: [@Sangwa7](https://www.linkedin.com/in/Sangwa7/)
+- GitHub: [Didier Sangwa](https://github.com/sangwa7)
+- Twitter: [@sangwa_7](https://twitter.com/sangwa_7)
+- LinkedIn: [Didier Sangwa](https://www.linkedin.com/in/didier-sangwa-463054227)
 
 ## 🤝 Contributing
 
