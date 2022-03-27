@@ -54,7 +54,8 @@ navigate through the pages to see different contents
 set up on github pages
 ```
 
-## Authors
+## Author
+
 👤 **Sangwa Didier**
 
 - GitHub: [Didier Sangwa](https://github.com/sangwa7)
