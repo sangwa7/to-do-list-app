@@ -13,13 +13,13 @@ This project is a responsive Todo list app which allows you to add and remove ta
 
 ## Live Demo (if available)
 
-[To-Do-list] (https://sangwa7.github.io/to-do-list-app/)
+[To-Do-list-Demo]
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-- You can clone this repo by typing `git clone https://github.com/sangwa7/to-do-list` on your terminal
+- You can clone this repo by typing `git clone https://github.com/sangwa7/to-do-list-app` on your terminal
 - Type `cd To-Do-list` to access the project
 
 ### Prerequisites
