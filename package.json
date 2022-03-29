@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
     "start": "webpack serve --open",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run gh-pages",
+    "gh-pages": "gh-pages -d dist -b gh-pages"
   },
   "repository": {
     "type": "git",
