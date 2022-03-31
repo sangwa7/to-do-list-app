@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "webpack --mode development",
     "start": "webpack serve --open",
     "deploy": "npm run gh-pages",
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/sangwa7/to-do-list-app#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.7",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
@@ -29,6 +32,7 @@
     "gh-pages": "^3.2.3",
     "hint": "^6.1.10",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.1",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
