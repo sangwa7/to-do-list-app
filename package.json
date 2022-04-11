@@ -7,8 +7,9 @@
     "test": "jest",
     "dev": "webpack --mode development",
     "start": "webpack serve --open",
-    "deploy": "npm run gh-pages",
-    "gh-pages": "gh-pages -d dist -b gh-pages"
+    "deploy": "gh-pages -d dist",
+    "gh-pages": "gh-pages -d dist -b gh-pages",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
