@@ -13,7 +13,7 @@ This project is a responsive Todo list app which allows you to add and remove ta
 
 ## Live Demo 
 
-(Link)[https://sangwa7.github.io/to-do-list-app/]
+(Link) [https://sangwa7.github.io/to-do-list-app/]
 
 ## Getting Started
 
