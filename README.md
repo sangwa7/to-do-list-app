@@ -11,9 +11,9 @@ This project is a responsive Todo list app which allows you to add and remove ta
 - HTML, CSS & JS
 - Hint, Stylelint, Eslint,webpack
 
-## Live Demo (if available)
+## Live Demo 
 
-[To-Do-list-Demo]
+(Link)[https://sangwa7.github.io/to-do-list-app/]
 
 ## Getting Started
 
